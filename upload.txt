@@ -1,0 +1,14 @@
+第一种、本地文件上传到git仓库的命令
+
+ git add 文件名.后缀                                 \\将文件添加到临时缓冲区
+ git commit -m "你要干的事情"                \\将临时缓冲区的文件提交到本地仓库
+ git push origin 仓库分支                          \\将本地仓库推送到远程仓库
+
+查看仓库常用命令
+ git log                                                       \\查看提交日志
+ git status
+
+第二种、将git仓库同步到本地
+
+ git remote add origin 远程git仓库地址    \\我的地址是https://github.com/mingyueguxia/LinkStart.git
+ git pull orgin 仓库分支                              \\我的分支是main
